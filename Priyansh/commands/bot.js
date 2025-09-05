@@ -32,6 +32,53 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Hug me baby ☺️", threadID);
    };
 
+    if ((event.body.toLowerCase() == "by") || (event.body.toLowerCase() == "byy")) {return api.sendMessage("Ok Bye Jldi phirse Milenge 🙄", threadID);
+    };
+
+   if ((event.body.toLowerCase() == "inbox") || (event.body.toLowerCase() == "ib")) {
+       return api.sendMessage("️ KYa IB IB 👿 Idher BOL MeRe SaMny ", threadID);
+     };
+
+   if ((event.body.toLowerCase() == "baby") || (event.body.toLowerCase() == "babu")) {
+       return api.sendMessage("️🙈🙉🙊", threadID);
+     };
+
+    if ((event.body.toLowerCase() == "Gud night") || (event.body.toLowerCase() == "good night")) {
+       return api.sendMessage("GOOD NIGHT MERI JAAN SWEET DREAMS AND MISS YOU SO MUCH JAANU 😘🥰", threadID);
+     };
+
+   if ((event.body.toLowerCase() == "welcme") || (event.body.toLowerCase() == "Welcome")) {
+     return api.sendMessage("محفل کو خوبصورت بنانے میں ہمارا تھوڑا سا ساتھ دیں، اجنبیوں کی طرح مایوس نہ بیٹھیں، کھل کر مسکرائیں اور لطف اٹھائیں..!! ہمارے گروپ میں خوش آمدید7", threadID);
+   };
+
+  if ((event.body.toLowerCase() == "ok") || (event.body.toLowerCase() == "Okay")) {
+       return api.sendMessage("KYa Ok🙄 Haan", threadID);
+     };
+
+  if ((event.body.toLowerCase() == "G") || (event.body.toLowerCase() == "Han G")) {
+       return api.sendMessage(" H I J K L M N O P Q R S T U V W X Y Z 🙄", threadID);
+     };
+
+      if ((event.body.toLowerCase() == "😴") || (event.body.toLowerCase() == "😴😴") || (event.body.toLowerCase() == "😴😴😴") || (event.body.toLowerCase() == "😴😴😴😴")) {
+     return api.sendMessage("کوئی پلیز اسے لات مار کر جگا دے، وہ گروپ میں سو گیا۔ 🤨👈", threadID);
+   };
+
+  if ((event.body.toLowerCase() == "kamina") || (event.body.toLowerCase() == "kamina bot") || (event.body.toLowerCase() == "tamina") || (event.body.toLowerCase() == "kamine")) {
+     return api.sendMessage("تم ڈبل کمینے ہو 😒👈", threadID);
+   };
+
+  if ((event.body.toLowerCase() == "kya kar rahe ho") || (event.body.toLowerCase() == "k kr h")) {
+    return api.sendMessage("میں لنگی ڈانس کر رہا ہوں، آپ میرے ساتھ یہ کرنا چاہتے ہیں۔ 🤨👈", threadID);
+   }; 
+
+  if ((event.body.toLowerCase() == "Love you") || (event.body.toLowerCase() == "bot love u")) {
+     return api.sendMessage("𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐓𝐎𝐎 𝐉𝐀𝐀𝐍𝐔😍", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "👻") || (event.body.toLowerCase() == "👻👻")) {
+       return api.sendMessage("Ari mori maiyya e ka dekh liyo👻💀", threadID);
+     };
+  
      if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsimi")) {
      return api.sendMessage("Prefix Kon Lagayega? Pehle Prefix Lagao Fir Likho Sim", threadID);
    };
