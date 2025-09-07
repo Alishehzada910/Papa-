@@ -63,6 +63,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("کوئی پلیز اسے لات مار کر جگا دے، وہ گروپ میں سو گیا۔ 🤨👈", threadID);
    };
 
+if ((event.body.toLowerCase() == "Jani") || (event.body.toLowerCase() == "Janu") ||(event.body.toLowerCase() == "Jan") || (event.body.toLowerCase() == "JANI")) {
+     return api.sendMessage("Owner SA rabta KRO wo shaded single hahttps://www.facebook.com/share/19pXU3PagG/", threadID);
+   };
+
   if ((event.body.toLowerCase() == "kamina") || (event.body.toLowerCase() == "kamina bot") || (event.body.toLowerCase() == "tamina") || (event.body.toLowerCase() == "kamine")) {
      return api.sendMessage("تم ڈبل کمینے ہو 😒👈", threadID);
    };
