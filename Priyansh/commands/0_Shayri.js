@@ -3,9 +3,9 @@ module.exports.config = {
     version: "1.0.0",
     hasPermssion: 2,
     credits: "𝐒𝐡𝐞𝐡𝐳𝐚𝐝𝐚",
-    description: "Fire nÃ¡t cÃ¡i boxchat",
+    description: "Poetry",
     commandCategory: "group",
-    usages: "fire Ä‘áº­m cháº¥t",
+    usages: "Poetry",
     cooldowns: 10,
     dependencies: {
         "fs-extra": "",
