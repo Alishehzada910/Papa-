@@ -6,12 +6,12 @@ module.exports = function ({ api, models }) {
     const logger = require("../utils/log.js");
     const moment = require('moment-timezone');
     const axios = require("axios");
-    var day = moment.tz("Asia/Kolkata").day();
+    var day = moment.tz("Asia/Pakistan").day();
 
 
     const checkttDataPath = __dirname + '/../Priyansh/commands/checktuongtac/';
     setInterval(async () => {
-        const day_now = moment.tz("Asia/Kolkata").day();
+        const day_now = moment.tz("Asia/Pakistan").day();
         const _ADMINIDs = [...global.config.NDH, ...global.config.ADMINBOT];
       try {
         if (day != day_now) {
