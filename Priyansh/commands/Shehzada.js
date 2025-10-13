@@ -2,7 +2,7 @@ module.exports.config = {
   name: "Shehzada",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "JULMI JAAT",
+  credits: "shehzada",
   description: "Shehzada",
   commandCategory: "one answer",
   usages: "Jani",
